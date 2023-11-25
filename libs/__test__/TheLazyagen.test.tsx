@@ -14,7 +14,7 @@ describe("Button component", () => {
         bg="blue"
       />,
     );
-    const thelazyagen = screen.getByRole("thelazyagen");
+    const thelazyagen = screen.getByRole("button");
     expect(thelazyagen).toBeInTheDocument();
   });
 });
