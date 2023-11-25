@@ -1,5 +1,5 @@
 {
-  "name": "@thevimagen/thelazyagen",
+  "name": "@thevimgen/thelazyagen",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -29,13 +29,18 @@
     ]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@{USER_NAME}"
+    "registry": "https://npm.pkg.github.com/@thevimgen"
   },
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.2"
+
   },
   "dependencies": {
-    "react-dom": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.2"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.3",
