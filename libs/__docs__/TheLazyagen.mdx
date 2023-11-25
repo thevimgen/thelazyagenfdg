@@ -1,0 +1,37 @@
+import { Meta } from "@storybook/blocks";
+import TheLazyagen from "./TheLazyagen.stories.tsx";
+
+<Meta of={TheLazyagen} title="TheLazyagen" />
+
+# TheLazyagen
+
+Button component with different props.
+
+#### Example
+
+
+## Usage
+
+```ts
+import {TheLazyagen} from "TheLazyagen";
+
+const Example = () => {
+  return (
+      <TheLazyagen 
+        text="hi this is a button" 
+        size="15px" 
+        color="red" 
+        bg="blue"
+      />
+  );
+};
+
+export default Example;
+```
+
+#### Arguments
+
+- **text** _`() => void`_ - A string that represents the text content of the button.
+- **color** - A value to choose which color of the button text of the button you want.
+- **bg** - A value to choose which color of the background of the button you want.
+- **size** - A string with one of three possible values: "small," "medium," or "large." It defines the size or dimensions of the button.
