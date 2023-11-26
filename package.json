@@ -1,5 +1,5 @@
 {
-  "name": "@ahmedayob/thelazyagen",
+  "name": "@thevimgen/thelazyagen",
   "author": "ahmedayob",
   "private": false,
   "version": "0.0.1",
@@ -40,7 +40,7 @@
     ]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@ahmedayob"
+    "registry": "https://npm.pkg.github.com/@thevimgen"
   },
   "peerDependencies": {
     "react": "^18.2.0",
