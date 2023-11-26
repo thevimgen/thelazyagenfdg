@@ -40,7 +40,8 @@
     ]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@thevimgen"
+    "registry": "https://npm.pkg.github.com/@thevimgen",
+    "access": "public"
   },
   "peerDependencies": {
     "react": "^18.2.0",
